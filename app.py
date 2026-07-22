@@ -36,7 +36,7 @@ except Exception as e:
 # Setup MediaPipe untuk visualisasi skeleton di GUI
 mp_pose = mp.solutions.pose
 mp_drawing = mp.solutions.drawing_utils
-pose_visualizer = mp_pose.Pose(static_image_mode=True, model_complexity=2)
+pose_visualizer = mp_pose.Pose(static_image_mode=True, model_complexity=1)
 
 # =============================================================================
 # 2. SELEKSI INPUT GAMBAR (URUTAN AWAL: UNGGAH FOTO)
