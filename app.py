@@ -64,7 +64,7 @@ st.markdown("""
             padding-bottom: 2rem;
             padding-left: 3rem;
             padding-right: 3rem;
-            max-width: 1000px;  /* atur sesuai kebutuhan, default centered ~730px */
+            max-width: 900px;  /* atur sesuai kebutuhan, default centered ~730px */
         }
     </style>
 """, unsafe_allow_html=True)
