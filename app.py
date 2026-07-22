@@ -12,7 +12,7 @@ from feature_engineer import FeatureEngineer
 LABELS = ["forward_head", "postural_kyphosis", "rounded_shoulder", "normal"]
 
 st.set_page_config(
-    page_title="SMulti-label Body Posture Detection",
+    page_title="Multi-label Body Posture Detection",
     page_icon="⚕️",
     layout="centered"
 )
