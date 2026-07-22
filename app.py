@@ -13,7 +13,7 @@ LABELS = ["forward_head", "postural_kyphosis", "rounded_shoulder", "normal"]
 
 st.set_page_config(
     page_title="Sistem Deteksi Permasalahan Postur Tubuh (SVM)",
-    page_icon="🧍",
+    page_icon="⚕️",
     layout="centered"
 )
 
