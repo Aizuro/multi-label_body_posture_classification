@@ -41,7 +41,7 @@ pose_visualizer = mp_pose.Pose(static_image_mode=True, model_complexity=1)
 # =============================================================================
 # 2. SELEKSI INPUT GAMBAR (URUTAN AWAL: UNGGAH FOTO)
 # =============================================================================
-st.title("Multi-label Classification Body Posture (Sitting-Related Problems)")
+st.title("Multi-label Classification Body Posture")
 
 with st.expander("Photo Guideline (Must Read)"):
     st.markdown("""
