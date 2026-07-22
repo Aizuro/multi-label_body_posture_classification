@@ -12,7 +12,7 @@ from feature_engineer import FeatureEngineer
 LABELS = ["forward_head", "postural_kyphosis", "rounded_shoulder", "normal"]
 
 st.set_page_config(
-    page_title="Sistem Deteksi Permasalahan Postur Tubuh (SVM)",
+    page_title="SMulti-label Body Posture Detection",
     page_icon="⚕️",
     layout="centered"
 )
@@ -41,7 +41,7 @@ pose_visualizer = mp_pose.Pose(static_image_mode=True, model_complexity=1)
 # =============================================================================
 # 2. SELEKSI INPUT GAMBAR (URUTAN AWAL: UNGGAH FOTO)
 # =============================================================================
-st.title("Multi-label Classification Body Posture")
+st.title("Multi-label Classification Body Posture (Sitting-Related Problems")
 
 with st.expander("Photo Guideline (Must Read)"):
     st.markdown("""
